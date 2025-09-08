@@ -73,7 +73,6 @@ function saveData() {
 }
 
 function showTasks() {
-  
   const tasksHTML = localStorage.getItem("tasks");
   if (tasksHTML) {
     list.innerHTML = tasksHTML;
@@ -83,5 +82,6 @@ function showTasks() {
   } else {
     clearAllBtn.classList.add("hidden");
   }
-  showTasks();
 }
+
+showTasks();
