@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>Todo-list</h1>
-      <div class="inputandaddcontainer">
-        <input type="text" id="todoInput" />
-        <button type="button" id="addTask">Add</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Todo-list</h1>
+    <div class="inputandaddcontainer">
+      <input type="text" id="todoInput" />
+      <button type="button" id="addTask">Add</button>
     </div>
-  </body>
+    <ol id="list"></ol>
+    <button id="clearAllBtn" class="hidden">Clear All</button>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
