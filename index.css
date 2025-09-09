@@ -58,3 +58,47 @@ h1 {
 #addTask:hover {
   background-color: red;
 }
+#list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+}
+.boxbtn {
+  width: 20px;
+  height: 20px;
+  border: 56px;
+  border-radius: 200%;
+  position: absolute;
+  left: 10px;
+}
+.delbtn {
+  color: red;
+  position: absolute;
+  right: 10px;
+}
+.clrbtn {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 500px;
+}
+.clrbtn:hover {
+  background-color: red;
+}
