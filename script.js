@@ -31,5 +31,8 @@ addTask.addEventListener("click", () => {
   delbtn.className = "delbtn";
   delbtn.addEventListener("click", () => {
     li.remove();
+    if (list.children.length === 0) {
+      clearAllBtn.style.display = "none";
+    }
   });
 });
