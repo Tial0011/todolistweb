@@ -88,9 +88,11 @@ li {
   left: 10px;
 }
 .delbtn {
-  color: red;
+  background-color: red;
+  color: white;
   position: absolute;
   right: 10px;
+  border: none;
 }
 .clrbtn {
   background-color: blue;
